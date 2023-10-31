@@ -1,6 +1,6 @@
 
 import './App.css'
-import NavBar from './component/navbar/Navbar.jsx'
+import NavBar from './component/navbar/NavBar.jsx'
 import Product from './component/product/Product.jsx'
 import Resturant from './component/resturant/Resturant.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
