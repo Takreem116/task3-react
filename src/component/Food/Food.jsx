@@ -15,7 +15,7 @@ const getMeal = async() =>{
     let response =  await fetch(`https://forkify-api.herokuapp.com/api/search?q=${props.foodName}`);
     let data =  await response.json();
 
-     setMeal(data);
+     setMeal(data.recipes);
 
 }
 
